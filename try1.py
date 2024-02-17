@@ -23,7 +23,7 @@ count = 0
 print("\nthis many malfunctions:", count)
 
 
-# remove any negative numbers
+# make a new list of only the positive numbers
 # TODO
 lst2 = []
 
@@ -58,7 +58,7 @@ print("here's the max number of times:")
 print("\n--- last part, the constitution ---")
 # --- load the data ---
 s = ''
-f = open('constitution.txt', "r")
+f = open('u13dict2/constitution.txt', "r")
 s = f.read()
 f.close()
 
@@ -67,6 +67,7 @@ print("\nlength of string:")
 print("a sample from the string:")
 
 # clean up the data
+unwanted = ["\n", ".", "!", ",", "?", ":"]
 
 print("\na sample after cleaning:")
 

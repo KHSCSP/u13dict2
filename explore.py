@@ -1,28 +1,35 @@
 data = 'utilitatiscausaamicitiaestquaesitaloremipsumdolorsitametconsecteturadipiscingelitcollatioigituristatenihiliuvathonestaoratiosocraticaplatonisetiamprimuminnostranepotestateestquidmeminerimusduoregesconstructiointerretequidsietiamiucundamemoriaestpraeteritorummalorumsiquideminquittolleremsedrelinquoannisipopularifamaquamquamidquidemlicebitiisexistimarequilegerintsummumavobisbonumvoluptasdiciturathocineomreferttamenquomodoquidsequaturquidrepugnetvidentiamidipsumabsurdummaximummalumneglegi'
 alpha = 'abcdefghijklmnopqrstuvwxyz'
-counts = []
+
+# making a list of tuples
+ans = []
 for letter in alpha:
-    counts.append((letter, data.count(letter)))
+    temp = "TODO"
+    ans.append(temp)
 print("\nhere's the list of tuples for the counts:")
-print(counts)
+print(ans)
 
 
 
-counts = {}
+# making a dictionary of key : value pairs
+ans = {}
 for letter in alpha:
-    counts[letter] = data.count(letter)
+    temp = "TODO"
+    ans.update(temp)
+    # or through value assignment
+    # counts[letter] = data.count(letter)
 print("\nhere's the dictionary of counts:")
-print(counts)
+print(ans)
+
+print("the largest count:", max(ans.values()))
+# but what key does it belong to??
 
 
-print("the largest count:", max(counts.values()))
-
-
-
+# finding the largest
 most_val = 0
 most_key = ''
 
-for k, v in counts.items():
+for k, v in ans.items():
     if v > most_val:
         most_val = v
         most_key = k
