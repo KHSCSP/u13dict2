@@ -39,9 +39,6 @@ print("\n\n---- part 2, working with a list of integers ---")
 
 
 
-# count how many digits are less than 5 (this will require a loop)
-
-
 
 
 # we need to count how many times each digit appears
