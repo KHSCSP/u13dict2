@@ -51,6 +51,7 @@ print("\n\n---- part 2, working with a list of integers ---")
 
 
 # when that is working, uncomment the following lines and run your program
+# at the terminal, you may need: pip install matplotlib
 # import matplotlib
 # import matplotlib.pyplot as plt
 # import numpy as np
@@ -126,7 +127,6 @@ print("\n\n---- part 3, working with a list of words ---")
 
 # optional challenge
 # create a plot of words and the number of times those words appear
-# this will require a pygame trinket
 
 
 
