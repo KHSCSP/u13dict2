@@ -25,19 +25,20 @@ print("length of words:")
 
 
 
-# create a list of unique words
-unique_words = []
-
-print("\na sample of unique:", unique_words[:10])
-print("length of unique words:", len(unique_words))
-
-
 
 # make a list of words that occur only once
 only_once = []
 
 print("\nhere are the words that occur only once:", only_once)
 
+
+
+
+# create a list of unique words
+unique_words = []
+
+print("\na sample of unique:", unique_words[:10])
+print("length of unique words:", len(unique_words))
 
 
 
