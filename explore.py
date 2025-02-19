@@ -14,7 +14,7 @@ print(ans)
 # making a dictionary of key : value pairs
 ans = {}
 for letter in alpha:
-    temp = "TODO"
+    temp = {"TODO":"TODO"}
     ans.update(temp)
     # or through value assignment
     # counts[letter] = data.count(letter)
