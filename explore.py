@@ -30,9 +30,9 @@ most_val = 0
 most_key = ''
 
 for k, v in ans.items():
-    if v > most_val:
-        most_val = v
-        most_key = k
+    pass
+
+
 
 print("max key:", most_key)
 print("max value:", most_val)
