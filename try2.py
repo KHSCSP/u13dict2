@@ -2,7 +2,7 @@
 print("\n--- last part, the constitution ---")
 # --- load the data ---
 s = ''
-f = open('constitution.txt', "r")
+f = open('u12dict2/constitution.txt', "r")
 s = f.read()
 f.close()
 
